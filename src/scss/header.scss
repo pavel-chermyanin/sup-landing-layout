@@ -5,6 +5,7 @@
   background-position: center;
   min-height: 100vh;
   position: relative;
+  margin-bottom: 80px;
 }
 .header::before {
   content: "";
@@ -13,7 +14,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 456px;
+  min-height: 456px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,7 +28,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 456px;
+  min-height: 456px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -72,6 +73,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  position: relative;
 }
 .header__content-box {
   max-width: 550px;
@@ -80,6 +82,7 @@
   color: #fff;
   font-family: "Comfortaa";
   font-weight: 700;
+  z-index: 4;
 }
 .header__title {
   font-size: 64px;
@@ -93,7 +96,7 @@
 }
 .header__decor-text {
   position: absolute;
-  bottom: -70px;
+  bottom: -40px;
   color: #0093a1;
 }
 .header__decor-text--one {
@@ -111,7 +114,7 @@
 }
 .header__decor-text--two{
     z-index: 4;
-    left: 265px;
+    left: 20%;
 }
 .header__decor-text--three {
   max-width: 360px;
