@@ -32,6 +32,9 @@ ul {
   padding: 0;
   list-style: none;
 }
+img{
+  object-fit: cover;
+}
 
 .container {
   max-width: 1230px;
@@ -50,4 +53,11 @@ ul {
     display: block;
     color: #fff;
   }
+}
+.title {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 67px;
+  text-transform: uppercase;
 }
