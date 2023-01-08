@@ -32,7 +32,7 @@ ul {
   padding: 0;
   list-style: none;
 }
-img{
+img {
   object-fit: cover;
 }
 
@@ -48,10 +48,29 @@ img{
   border: none;
   background-color: transparent;
   cursor: pointer;
+  path {
+    transition: fill 0.3s ease-in-out;
+  }
+  circle {
+    transition: stroke 0.3s ease-in-out;
+  }
+
+  &:hover {
+    span {
+      color: #0093a1;
+    }
+    path {
+      fill: #b9c400;
+    }
+    circle {
+      stroke: #b9c400;
+    }
+  }
   span {
     padding-top: 12px;
     display: block;
     color: #fff;
+    transition: color 0.3s ease-in-out;
   }
 }
 .title {
